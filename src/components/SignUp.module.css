@@ -1,0 +1,118 @@
+.container {
+    width: 500px;
+    min-height: 500px;
+    border: 1px solid silver;
+    background-color: transparent;
+    box-shadow: 2px 8px 8px silver;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 10PX;
+}
+
+.header {
+    font-size: 2rem;
+    color: rgb(42, 71, 165);
+    font-weight: bolder;
+    display: flex;
+    left: 2px;
+    margin: 10px 30px;
+    
+}
+
+.formfield {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.formfield label {
+    color: rgb(126, 125, 125);
+    margin: 3px 30px;
+    
+}
+
+.formfield:nth-child(6) label {
+    color: aqua;
+}
+
+
+.formfield input {
+    border-radius: 5px;
+    margin: 3px 30px;
+    width: 70%;
+    height: 30px;
+    
+}
+
+.errorshow{
+    box-shadow: 2px 2px 8px red;
+}
+
+.formfield input:focus {
+    border-radius: 5px;
+    margin: 3px 30px;
+    width: 70%;
+    height: 30px;
+}
+
+.formfield span {
+    color: red;
+    background-color: brown;
+    margin: 3px 30px;
+}
+
+input[type='checkbox']:checked {
+    border: 1px solid red;
+    border-radius: 50%;
+    
+}
+
+.accept {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accept label {
+    width: 150px;
+    margin: 3px 30px;
+}
+
+/* .accept input {
+    width: 20px;
+} */
+
+
+.btnsign {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnsign button {
+    color: white;
+    background-color: rgb(49, 49, 224);
+    padding: 12px 17px;
+    border: 2px solid silver;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 30px;
+    font-size: 1.2rem;
+}
+
+.btnsign a {
+    color: blue;
+    background-color: white;
+    padding: 12px 17px;
+    border: 2px solid rgb(59, 14, 163);
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 30px;
+    font-size: 1.2rem;
+}
+
+
+
